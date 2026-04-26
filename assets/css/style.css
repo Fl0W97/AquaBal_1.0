@@ -1,0 +1,403 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    /* min-width: 320px; I want to have the min-width to 320px so that he navigation is not pushed down. But it's not working */
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    padding: 3px;
+}
+
+.space_bottom {
+    padding-bottom: 20px;
+}
+
+/* Logo size defined for all icons and logos */
+.logo_size {
+    height: 30px;
+    width: 30px;
+}
+
+nav {
+    top: 100%;
+    border-top: 1px solid grey;
+}
+
+.menu {
+    font-size: 110%;
+    letter-spacing: 1px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu > li {
+    margin: 0.3rem;
+    color: #3a3a3a;
+}
+
+.menu li a {
+    color: #3a3a3a;
+    padding-right: 1rem;
+    padding-left: 3px;
+}
+
+.active {
+    border-left: 5px solid #0f9d58;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    background-color: #f8f7f3;
+    /* Push main down due to header*/
+    margin-top: 97px;
+
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
+
+/* Main content - section hero images*/
+#hero_image {
+    height: 500px;
+    width: 100%;
+    background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
+    border-bottom: 3px solid #3a3a3a;
+}
+
+#text_cover {
+    color: #ffffff;
+    /* rgba value transparent */
+    background-color: rgba(241, 109, 107, .5);
+    font-size: 110%;
+    width: 80%;
+    position: absolute;
+    top: 100px;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+/* images for how.html and who.html */
+.hero_small {
+    height: 250px;
+    width: 100%;
+    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
+}
+
+/* Main content - further sections*/
+h3 {
+    box-shadow: 0 2px 0 #0f9d58;
+    padding: 3px;
+}
+
+h4 {
+    padding: 2px;
+}
+
+.section_style {
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid silver;
+}
+
+.bg-dark {
+    background-color: #dcccb2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.width_90 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reasons_hints {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.image_container_center {
+    padding: 0;
+    margin: auto;
+}
+
+
+/* content relevant for index.html */
+#image_stones {
+    background: url("../images_logo/logo_calm_down_adjusted.png") no-repeat top right / cover;
+    height: 16vw;
+    width: 16vw;
+    margin: auto;
+}
+
+/* content relevant for how.html */
+#flat_people_meditating {
+    background: url("../images_logo/flat_people_meditating_adjusted.jpg") no-repeat top right / cover;
+    height: 45vw;
+    width: 70vw;
+    max-height: 200px;
+    max-width: 300px;
+    margin: auto;
+}
+
+#bg-forest {
+    background: url("../images_logo/amazing-sunset-mountain-scenery.jpg") no-repeat center /cover; 
+}
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: 100%;
+}
+
+/* meditations */
+.meditations {
+    /* put the menu for meditations in the center in techniques.html*/
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+}
+
+.med-content {
+  width: 85%;
+  background-color: rgba(255, 255, 255, .65);
+  margin: auto;
+  /* border-bottom: 2px solid #767355; */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 110%;
+}
+
+audio {
+    padding: 7px;
+    width: 100%;
+}
+
+/* Simplify the navigation for the user dealing with the meditation section */
+.scroll_up {
+    font-size: 85%;
+    padding: 20px;
+    text-align: center;
+}
+
+.scroll_up a {
+    border-top: 2px solid #0f9d58;
+    border-bottom: 2px solid #0f9d58;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+/* Provide a fixed anchor due to header fixation */
+.anchor {
+    display: block;
+    position: relative;
+    top: -97px;
+    visibility: hidden;
+}
+
+/* content relevant for how.html */
+/* circle images of the author and creator */
+#author_image_size {
+    height: 20vw;
+    width: 20vw;
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    border-color: #0f9d58;
+}
+
+.author_image_size {
+    height: 20vw;
+    width: 20vw;
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    border-color: #0f9d58;
+}
+
+/* Footer */
+footer {
+    background-color: #dcccb2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 2px solid #3a3a3a;
+}
+
+.social-networks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #0f9d58;
+  font-size: 150%;
+}
+
+ /* Media query: tables and larger (768px and up) */
+ @media screen and (min-width: 768px) {
+
+    h1 {
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    
+    #calmdown-logo {
+        font-size: 250%;
+        margin: 0 0.5rem;
+    }
+
+    nav {
+        border-top: none;
+        font-size: 110%;
+    }
+
+    .menu {
+        /* push menu elemets to the right  */
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .menu li a {
+        padding-right: 2rem;
+        padding-left: 5px;
+    }
+
+    main {
+        /* push down content due to larger header */
+        margin-top: 97px;
+    }
+
+    /* hero image */
+    #text_cover {
+        width: 350px;
+        right: 70px;
+    }
+
+    .reasons_hints {
+        flex-direction: column;
+        display: flex;
+        /*justify-content: space-around;*/
+        width: 80%;
+    }
+    
+    .reasons {
+        width: 100%;
+        margin: 7px;
+    }
+
+    .reasons_internal {
+        text-align: end;
+        margin: 7px;
+    }
+
+    .meditations {
+        /* put the menu for meditations in the center in techniques.html*/
+        justify-content: center;
+        width: 75%;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* meditations */
+    .med-content {
+        width: 75%;
+        max-width: 800px;
+        padding: 10px;
+    }
+
+ }   
+
+  /* Media query: desktop and larger (992px and up) */
+ @media screen and (min-width: 992px) {
+
+    /* Logo size defined for all icons and logos, increase logo size */
+    .logo_size {
+    height: 40px;
+    width: 40px;
+    }
+    
+    .menu li a:hover {
+        color: #0f9d58;
+        padding-left: 5px;
+        border-left: 5px solid #0f9d58;
+        font-weight: bold;
+    }
+
+    .reasons_hints {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .reasons_hints > div {
+    flex: 1;
+    }
+
+    .reasons_internal {
+        order: 1;
+        align-self: flex-start;      
+    }
+    
+    .image_container_center {
+        order: 0;
+        align-self: flex-end;
+    }
+
+    .reasons_internal {
+        padding-top: 100px;
+    }
+
+ }
