@@ -105,7 +105,7 @@ main {
 #hero_image {
     height: 500px;
     width: 100%;
-    background: url("../images/placeholder.png") no-repeat center center/cover; /* hero image*/
+    background: url("assets/images/placeholder.png") no-repeat center center/cover; /* hero image*/
     border-bottom: 3px solid #3a3a3a;
 }
 
@@ -128,7 +128,7 @@ main {
 .hero_small {
     height: 250px;
     width: 100%;
-    background: url("../images/placeholder.png") no-repeat center center/cover; /* hero small */
+    background: url("assets/images/placeholder.png") no-repeat center center/cover; /* hero small */
 }
 
 /* Main content - further sections*/
