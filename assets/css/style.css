@@ -105,7 +105,7 @@ main {
 #hero_image {
     height: 500px;
     width: 100%;
-    background: url("../images_logo/hero_image.jpg") no-repeat center center/cover;
+    background: url("../images/placeholder.png") no-repeat center center/cover; /* hero image*/
     border-bottom: 3px solid #3a3a3a;
 }
 
@@ -128,7 +128,7 @@ main {
 .hero_small {
     height: 250px;
     width: 100%;
-    background: url("../images_logo/hero_small.png") no-repeat center center/cover;
+    background: url("../images/placeholder.png") no-repeat center center/cover; /* hero small */
 }
 
 /* Main content - further sections*/
@@ -176,7 +176,7 @@ h4 {
 
 /* content relevant for index.html */
 #image_stones {
-    background: url("../images_logo/logo_calm_down_adjusted.png") no-repeat top right / cover;
+    background: url("../images/placeholder.png") no-repeat top right / cover; /* image stones */
     height: 16vw;
     width: 16vw;
     margin: auto;
@@ -184,7 +184,7 @@ h4 {
 
 /* content relevant for how.html */
 #flat_people_meditating {
-    background: url("../images_logo/flat_people_meditating_adjusted.jpg") no-repeat top right / cover;
+    background: url("../images/placeholder.png") no-repeat top right / cover; * image people sitting together */
     height: 45vw;
     width: 70vw;
     max-height: 200px;
@@ -193,7 +193,7 @@ h4 {
 }
 
 #bg-forest {
-    background: url("../images_logo/amazing-sunset-mountain-scenery.jpg") no-repeat center /cover; 
+    background: url("../images/placeholder.png") no-repeat center /cover; /* image amazing-sunset-mountain-scenery.jpg */
 }
 
 .bg-transparent {
@@ -294,7 +294,7 @@ footer {
         padding-bottom: 5px;
     }
     
-    #calmdown-logo {
+    #aquabal-logo {
         font-size: 250%;
         margin: 0 0.5rem;
     }
