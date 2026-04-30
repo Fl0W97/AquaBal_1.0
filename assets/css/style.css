@@ -55,6 +55,12 @@ p {
     padding-bottom: 20px;
 }
 
+/* Logo size defined for AquaBal-Logo */
+.logo_size_main {
+    height: 60px;
+    width: 60px;
+}
+
 /* Logo size defined for all icons and logos */
 .logo_size {
     height: 30px;
@@ -363,12 +369,19 @@ footer {
   /* Media query: desktop and larger (992px and up) */
  @media screen and (min-width: 992px) {
 
+    /* Logo size defined for AquaBal-Logo */
+    .logo_size_main {
+        height: 80px;
+        width: 80px;
+    }
+
     /* Logo size defined for all icons and logos, increase logo size */
     .logo_size {
     height: 40px;
     width: 40px;
     }
-    
+
+
     .menu li a:hover {
         color: #0f9d58;
         padding-left: 5px;
