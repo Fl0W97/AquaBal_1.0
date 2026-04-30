@@ -105,7 +105,7 @@ main {
 #hero_image {
     height: 500px;
     width: 100%;
-    background: url("assets/images/placeholder.png") no-repeat center center/cover; /* hero image*/
+    background: url("../images/placeholder.png") no-repeat center center/cover; /* hero image*/
     border-bottom: 3px solid #3a3a3a;
 }
 S
@@ -128,7 +128,7 @@ S
 .hero_small {
     height: 250px;
     width: 100%;
-    background: url("assets/images/placeholder.png") no-repeat center center/cover; /* hero small */
+    background: url("../images/placeholder.png") no-repeat center center/cover; /* hero small */
 }
 
 /* Main content - further sections*/
@@ -176,7 +176,7 @@ h4 {
 
 /* content relevant for index.html */
 #image_stones {
-    background: url("assets/images/placeholder.png") no-repeat top right / cover; /* image stones */
+    background: url("../images/placeholder.png") no-repeat top right / cover; /* image stones */
     height: 16vw;
     width: 16vw;
     margin: auto;
@@ -184,7 +184,7 @@ h4 {
 
 /* content relevant for how.html */
 #flat_people_meditating {
-    background: url("assets/images/placeholder.png") no-repeat top right / cover; * image people sitting together */
+    background: url("../images/placeholder.png") no-repeat top right / cover; * image people sitting together */
     height: 45vw;
     width: 70vw;
     max-height: 200px;
@@ -193,7 +193,7 @@ h4 {
 }
 
 #bg-forest {
-    background: url("assets/images/placeholder.png") no-repeat center /cover; /* image amazing-sunset-mountain-scenery.jpg */
+    background: url("../images/placeholder.png") no-repeat center /cover; /* image amazing-sunset-mountain-scenery.jpg */
 }
 
 .bg-transparent {
