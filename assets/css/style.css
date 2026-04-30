@@ -89,13 +89,18 @@ nav {
 .menu li a {
     color: #3a3a3a;
     padding-right: 1rem;
-    padding-left: 3px;
+    padding-left: 2px;
 }
 
 .active {
     border-left: 5px solid #0f9d58;
     font-weight: bold;
 }
+
+.langswitch {
+    font-weight: bold;
+}
+
 
 /* Main content */
 main {
