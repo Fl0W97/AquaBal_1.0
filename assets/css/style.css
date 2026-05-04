@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #1f3a4a;
     font-family: 'Lato', sans-serif;
 }
 
@@ -30,7 +30,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #9ccfe7;
 }
 
 header a {
@@ -42,7 +42,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #0d3b66;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -69,7 +69,7 @@ p {
 
 nav {
     top: 100%;
-    border-top: 1px solid grey;
+    border-top: 1px solid #9ccfe7;
 }
 
 .menu {
@@ -83,17 +83,17 @@ nav {
 
 .menu > li {
     margin: 0.3rem;
-    color: #3a3a3a;
+    color: #1f3a4a;
 }
 
 .menu li a {
-    color: #3a3a3a;
+    color: #1f3a4a;
     padding-right: 1rem;
     padding-left: 2px;
 }
 
 .active {
-    border-left: 5px solid #0f9d58;
+    border-left: 5px solid #2ec4b6;
     font-weight: bold;
 }
 
@@ -104,7 +104,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #f8f7f3;
+    background-color: #f4fbff;
     /* Push main down due to header*/
     margin-top: 97px;
 
@@ -117,13 +117,13 @@ main {
     height: 500px;
     width: 100%;
     background: url("../images/placeholder.png") no-repeat center center/cover; /* hero image*/
-    border-bottom: 3px solid #3a3a3a;
+    border-bottom: 3px solid #4ea8de;
 }
 
 #text_cover {
     color: #ffffff;
     /* rgba value transparent */
-    background-color: rgba(241, 109, 107, .5);
+    background-color: rgba(13, 59, 102, 0.72;
     font-size: 110%;
     width: 80%;
     position: absolute;
@@ -144,7 +144,7 @@ main {
 
 /* Main content - further sections*/
 h3 {
-    box-shadow: 0 2px 0 #0f9d58;
+    box-shadow: 0 2px 0 #2ec4b6;
     padding: 3px;
 }
 
@@ -155,11 +155,11 @@ h4 {
 .section_style {
   margin: auto;
   padding: 20px;
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid #cfeaf6;
 }
 
 .bg-dark {
-    background-color: #dcccb2;
+    background-color: #dff6ff;
 }
 
 .text-center {
@@ -205,7 +205,7 @@ h4 {
 
 .med-content {
   width: 85%;
-  background-color: rgba(255, 255, 255, .65);
+  background-color: rgba((255, 255, 255, 0.82);
   margin: auto;
   /* border-bottom: 2px solid #767355; */
   padding-left: 5px;
@@ -228,10 +228,10 @@ audio {
 }
 
 .scroll_up a {
-    border-top: 2px solid #0f9d58;
-    border-bottom: 2px solid #0f9d58;
+    border-top: 2px solid #2ec4b6;
+    border-bottom: 2px solid #2ec4b6;
     text-decoration: none;
-    color: #3a3a3a;
+    color: #1f3a4a;
 }
 
 /* Provide a fixed anchor due to header fixation */
@@ -242,32 +242,12 @@ audio {
     visibility: hidden;
 }
 
-/* content relevant for how.html */
-/* circle images of the author and creator */
-#author_image_size {
-    height: 20vw;
-    width: 20vw;
-    max-height: 100px;
-    max-width: 100px;
-    border-radius: 50%;
-    border-color: #0f9d58;
-}
-
-.author_image_size {
-    height: 20vw;
-    width: 20vw;
-    max-height: 100px;
-    max-width: 100px;
-    border-radius: 50%;
-    border-color: #0f9d58;
-}
-
 /* Footer */
 footer {
-    background-color: #dcccb2;
+    background-color: #dff6ff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-top: 2px solid #3a3a3a;
+    border-top: 2px solid #4ea8de;
 }
 
 .social-networks {
@@ -370,7 +350,7 @@ footer {
 
 
     .menu li a:hover {
-        color: #0f9d58;
+        color: #2ec4b6;
         padding-left: 5px;
         font-weight: bold;
     }
